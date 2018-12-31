@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <title>Little Bear's Aution</title> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div id="MyDiv" class="white_content">
+          <div class = "block">
+              <p id="tips1" class="inpuuuut">请输入商品名：</p> 
+              <input id="input1" class="inpuuuut" />
+          </div>
+      <br>
+      <br>
+          <div class = "block">
+                  <p id="tips2" class="inpuuuut">你对商品的描述：</p> 
+                  <input id="input2" class="inpuuuut" />
+          </div>
+      <br>
+      <br>
+          <div class = "block">
+                  <p id="tips5" class="inpuuuut">商品分类：</p> 
+                  <input id="input5" class="inpuuuut" />
+      </div>
+      <br>
+      <br>
+          <div class="block">
+              <p id="tips3" class="inpuuuut">一口价</p>
+              <input id="input3" class="inpuuuut"/>
+          </div>
+      <br>
+      <br>
+          <div class="block">
+              <p id="tips4" class="inpuuuut">起拍价</p>
+              <input id="input4" class="inpuuuut"/>
+          </div>
+      <br>
+      <br>
+          <div width="500px" height="30px">
+              <button id="confirm" onclick="ConfirmDiv('MyDiv','fade')">
+                  确认
+              </button>
+              <button id="cancel" onclick="CloseDiv('MyDiv','fade')">
+                  取消
+              </button>
+          </div>
+      </div>
+
+<div class="container">
+<div class="well well-sm">
+  <strong>Display</strong>
+  <div class="btn-group">
+      <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
+      </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
+          class="glyphicon glyphicon-th"></span>Grid</a>
+  </div>
+  <div id="Button1" type="button" onclick="ShowDiv('MyDiv','fade')">
+          <a class="btn btn-success" >Add to Auction</a>
+      </div>
+</div>
+<div id="products" class="row list-group">
+</div>
+</div>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+</body>
+</html>

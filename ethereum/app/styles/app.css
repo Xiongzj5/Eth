@@ -1,0 +1,202 @@
+body{
+    background-image: url(../assets/background.jpg);
+}
+.glyphicon { margin-right:5px; }
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+#Button1{
+    float: right;
+}
+.button{
+    margin:0 auto;
+    
+}
+.lead{
+    height: 50px;
+    width: 90px;
+}
+.list-group-image{
+    width: 500px;
+}
+
+
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+    }
+.white_content {
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 16px solid lightblue;
+    background: url(../assets/background.jpg) no-repeat;
+    z-index:1002;
+    overflow: auto;
+}
+
+
+.inpuuuut{
+    float: left;
+    margin: 10px;
+}
+#tips1{
+    color: aliceblue;
+    float: left;
+    font-size: 30px;
+    width: 300px;
+}
+#tips2{
+    color:aliceblue;
+    font-size: 30px;
+    width: 300px;
+    float: left;
+}
+#tips3{
+    color:aliceblue;
+    font-size: 30px;
+    width: 300px;
+}
+#tips4{
+    color: aliceblue;
+    font-size: 30px;
+    width: 300px;
+}
+#tips5{
+    color: aliceblue;
+    font-size: 30px;
+    width: 300px;
+}
+#input1{
+    margin-top: 23px;
+    color: bisque;
+    width: 300px;
+    height: 30px;
+    font-size: 28px;
+    background-color: rgb(0, 43, 54);
+    border-color: rgb(0, 43, 54);
+}
+#input2{
+    margin-top: 23px;
+    color: bisque;
+    width: 300px;
+    height: 30px;
+    font-size: 28px;
+    background-color: rgb(0, 43, 54);
+    border-color: rgb(0, 43, 54);
+}
+#input3{
+    margin-top: 23px;
+    color: bisque;
+    width: 300px;
+    height: 30px;
+    font-size: 28px;
+    background-color: rgb(0, 43, 54);
+    border-color: rgb(0, 43, 54);
+}
+#input4{
+    margin-top: 23px;
+    color: bisque;
+    width: 300px;
+    height: 30px;
+    font-size: 28px;
+    background-color: rgb(0, 43, 54);
+    border-color: rgb(0, 43, 54);
+}
+#input5{
+    margin-top: 23px;
+    color: bisque;
+    width: 300px;
+    height: 30px;
+    font-size: 28px;
+    background-color: rgb(0, 43, 54);
+    border-color: rgb(0, 43, 54);
+}
+.block{
+    width: 800px;
+    height: 40px;
+}
+
+#confirm{
+    float: left;
+    margin-left: 700px;
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    background-color: dimgray;
+    border-color: dimgray;
+}
+#cancel{
+    float: left;
+    margin-left: 30px;
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    background-color: dimgray;
+    border-color: dimgray;
+}
